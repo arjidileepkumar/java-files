@@ -1,0 +1,32 @@
+package oddeven;
+
+import java.util.Scanner;
+
+public class Calculater {
+	public static void main (String x[])
+{
+	
+	Scanner s =new Scanner(System.in);
+	 int b = s.nextInt();
+	System.out.println("enter number: "+b);
+	 int c = s.nextInt();
+	System.out.println("enter another number: "+c);
+	System.out.println("choose one");
+	System.out.println("1.addition");
+	System.out.println("2.substraction");
+	System.out.println("3.multification");
+	System.out.println("4.addition");	
+     int a= s.nextInt();
+     if (a==1);
+      System.out.println("resuts is: "+(b+c));
+     
+     if  (a==2);
+     System.out.println("results is: "+(b-c));
+     if (a==3);
+     System.out.println("results is; "+(b*c));
+     if (a==4); 
+    	 System.out.println("results is: "+(b/c));
+     
+	
+}
+}

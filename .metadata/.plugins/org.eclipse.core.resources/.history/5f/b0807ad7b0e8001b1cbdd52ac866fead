@@ -1,0 +1,20 @@
+package calcul;
+
+import java.util.Scanner;
+
+public class Calcultor {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int a= s.nextInt();
+		char j=s.next().charAt(0);
+		int b = s.nextInt();
+	
+		if (j=='+');
+		System.out.println("results: "+(a+b));
+	
+	
+
+	}
+
+}

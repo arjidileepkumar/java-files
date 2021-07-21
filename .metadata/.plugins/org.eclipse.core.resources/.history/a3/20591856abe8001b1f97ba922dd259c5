@@ -1,0 +1,21 @@
+package oddeven;
+
+import java.util.Scanner;
+
+public class Calculater {
+	public static void main (String x[])
+{
+	
+	Scanner s = new Scanner(System.in);
+	    int n = s.nextInt();
+	System.out.println("enter number: "+n);
+	   String d = s.nextLine();
+	  
+	System.out.println("enter symbol; "+d);
+	 int h = s.nextInt();
+	 System.out.println("enter 2nd number: "+h);
+	  String result = (n+d+h);
+	  System.out.println("results is: "+result);
+	
+}
+}

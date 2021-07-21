@@ -1,0 +1,17 @@
+package myPackage;
+
+import java.util.Scanner;
+
+public class Myclass
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner name = new Scanner(System.in);
+		System.out.println("enter your name "+name.nextLine());
+		Scanner age = new Scanner(System.in);
+		System.out.println("enter your age "+age.nextInt());
+		System.out.println("your name is: "+name+"your age is: "+age);
+	}
+
+}

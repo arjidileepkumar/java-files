@@ -1,0 +1,29 @@
+package calcul;
+
+import java.util.Scanner;
+
+public class Calcultor {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner (System.in);
+		int d= s.nextInt();
+		char op = s.next().charAt(0);
+		int f = s.nextInt();
+		
+		if(op=='+')
+			System.out.println((int)(d+f));
+		else if (op=='-')
+			System.out.println((int)(d-f));
+		else if (op=='*')
+		System.out.println((int)(d*f));
+		else if (op=='/')
+			System.out.println((int)(d/f));
+				
+			}
+		
+		
+	
+
+	}
+
+}

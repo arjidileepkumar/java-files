@@ -1,0 +1,22 @@
+package oddeven;
+
+import java.util.Scanner;
+
+public class Calculater {
+	public static void main (String x[])
+{
+Scanner s= new Scanner(System.in);
+int d = s.nextInt();
+int f =s.nextInt();
+char t = s.next().charAt(0);
+if (f=='+');
+System.out.println("reslts is: "+(d+t));
+else if (f=='-');
+System.out.println("results is: "+((int)d-t));
+else if (f=='*');
+System.out.println("results is: "+(d*t));
+else if (f=='/');
+System.out.println("results is: "+(d/t));
+	
+}
+}

@@ -1,0 +1,23 @@
+package myPackage;
+
+import java.util.Scanner;
+
+public class Myclass
+{
+
+	public static void main(String[] args) 
+	{
+		
+		
+		Scanner input =new Scanner(System.in);
+		System.out.println("enter your name: ");
+		String name = input.nextLine();
+		System.out.println("enetr your age: ");
+		double age = input.nextDouble();
+		
+		System.out.println("your name is: "+name);
+		System.out.println("your age is: "+age);
+		
+	}
+
+}

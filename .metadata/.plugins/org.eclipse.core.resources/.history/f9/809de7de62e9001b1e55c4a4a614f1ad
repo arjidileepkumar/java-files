@@ -1,0 +1,17 @@
+package nestedloop;
+
+import java.util.Scanner;
+
+public class Project1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner (System.in);
+               int d=50;
+               if((d+=s.nextInt())>100)
+            	   System.out.println("ok done");
+               else 
+            	   System.out.println("sorry");
+	}
+
+}

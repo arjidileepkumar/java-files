@@ -1,0 +1,29 @@
+package calcul;
+
+import java.util.Scanner;
+
+public class Calcultor {
+
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner (System.in);
+		int d= s.nextInt();
+		char c = s.next().charAt(0);
+		int f = s.nextInt();
+		System.out.println("enter forst number: "+d);
+		System.out.println("entet another number: "+f);
+		System.out.println("enter the symbol: "+c);
+		if (c=='+')
+			System.out.println("result is: "+(d+f));
+		else if(c=='-')
+			System.out.println("resuts is: "+(d-f));
+		else if (c=='*')
+			System.out.println("results is: "+(d*f));
+		else if(c=='/')
+			System.out.println("results is: "+(d/f));
+		
+			}
+		
+	}
+
+
